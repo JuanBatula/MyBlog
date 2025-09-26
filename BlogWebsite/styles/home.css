@@ -2,90 +2,82 @@ body {
     background-color: #1f2a2b;
     font-family: "Outfit", sans-serif;
     margin: 0;
-    padding: 30px;
     position: relative;
+    padding-top: 120px;
 }
+
 p {
     margin: 0;
 }
 
 .whole-cont{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1460px;
+    width: 100%;
 }
 
 .nav-bar{
-    height: 100px;
+    height: 60px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.profile{
-    background-color: white;
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-}
-
-.profile-pic{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.nav-bar-buttons{
-    width: 900px;
-    height: 70px;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
+    background-color: #234037;
+    position: fixed;
+    top: 0;
 }
-.nav-bar-buttons p{
-    padding: 10px;
+
+.nav-bar p{
     font-size: 30px;
     font-weight: 190;
     color: white;
     cursor: pointer;
 }
 
-.home-nav{
+.aboutme-nav{
     transition: font-weight 0.2s;
     transition: font-size 0.2s;
 }
-.home-nav:hover{
+.aboutme-nav:hover{
     font-weight: 500;
     font-size: 40px;
 }
-.portfolio-nav{
+
+.contacts-nav{
     transition: font-weight 0.2s;
     transition: font-size 0.2s;
 }
-.portfolio-nav:hover{
+.contacts-nav:hover{
     font-weight: 500;
     font-size: 40px;
 }
-.resume-nav{
+
+.projects-nav{
     transition: font-weight 0.2s;
     transition: font-size 0.2s;
 }
-.resume-nav:hover{
+.projects-nav:hover{
+    font-weight: 500;
+    font-size: 40px;
+}
+.certificates-nav{
+    transition: font-weight 0.2s;
+    transition: font-size 0.2s;
+}
+.certificates-nav:hover{
     font-weight: 500;
     font-size: 40px;
 }
 
 .text-section{
-    margin-top: 60px;
-    width: 900px;
+    width: auto;
     height: 351px;
+    text-align: center;
 }
 
 .welcome-text{
     color: white;
-    font-size: 50px;
+    font-size: 160px;
     font-weight: 100;
+    
 }
 
 .introduce-text{
@@ -93,7 +85,6 @@ p {
     color: white;
     font-size: 50px;
     font-weight: 700;
-    margin-right: 100px;
 }
 .blue{
     color: #00f0b8;
@@ -103,15 +94,16 @@ p {
     color: white;
     font-weight: 300;
     font-size: 18px;
-    margin-right: 135px;
+}
+.newline{
+    display: block;
+    margin-top: 10px;
 }
 
 .social-sections{
-    position: absolute;
-    width: 600px;
+    width: auto;
     height: 200px;
-    top: 630px;
-    left: 300px;
+    margin-top: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,7 +113,7 @@ p {
 .socials-buttons {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .socials-buttons button{
