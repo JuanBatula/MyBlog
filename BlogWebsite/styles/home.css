@@ -134,20 +134,26 @@ p {
     background-color: #234037;
 }
 
+.fb-btn{
+    width: 50px;
+    height: 50px;
+}   
+
+.git-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.linkedin-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 .find-me-text{
     color: white;
     font-weight: 100;
     font-size: 40px;
-}
-
-
-.bg-cont{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    background-color:#222f2f;
-    right: 0;
-    top: 440px;
-    box-shadow: -10px -10px 50px rgba(17, 17, 17, 0.563);
 }
 
